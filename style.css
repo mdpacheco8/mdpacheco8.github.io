@@ -114,19 +114,28 @@
   border-radius: 10px;
 }
 
-
-.sticky {
-  position: sticky
+.layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
 }
 
-.content {
-  flex: 1; /* other half of the space */
-  display: flex;
-  justify-content: center;
+#content {
+  flex: 3;
 }
 
 .stickynav {
-  flex: 1; /* other half of the space */
-  display: flex;
-  justify-content: center;
+  flex: 1;
+  position: sticky;
+  top: 100px;
+  align-self: flex-start;
+}
+
+.stickynav nav {
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  font-size: 0.9rem;
+  position: relative;
 }
