@@ -71,3 +71,45 @@
     margin-top: 2rem;
   }
   
+  .hero {
+  display: flex; /* puts text and image side-by-side */
+  align-items: center; /* aligns them vertically */
+  justify-content: space-between; /* space between text and image */
+  padding: 3rem;
+  background: #fff;
+  gap: 2rem;
+}
+
+.hero-text {
+  flex: 1; /* takes up half the space */
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background: #0d6efd; /* blue background */
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-image {
+  flex: 1; /* other half of the space */
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
