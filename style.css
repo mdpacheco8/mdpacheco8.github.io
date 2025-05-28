@@ -113,3 +113,20 @@
   max-width: 100%;
   border-radius: 10px;
 }
+
+
+.sticky {
+  position: sticky
+}
+
+.content {
+  flex: 1; /* other half of the space */
+  display: flex;
+  justify-content: center;
+}
+
+.stickynav {
+  flex: 1; /* other half of the space */
+  display: flex;
+  justify-content: center;
+}
