@@ -71,17 +71,17 @@ footer {
   margin-top: 2rem;
 }
 
-  .hero {
-  display: flex; /* puts text and image side-by-side */
-  justify-content: space-evenly; /* space between text and image */
-  align-items: center; /* aligns them vertically */
-  padding: 3rem;
-  background: #fff;
-  gap: 2rem;
+#hero {
+display: flex; /* puts text and image side-by-side */
+flex-direction: row;
+justify-content: space-between; /* space between text and image */
+padding: 3rem;
+background: #fff;
+gap: 5rem;
 }
 
 .hero-text {
-  flex: 2; /* takes up half the space */
+  flex: 1; /* takes up half the space */
 }
 
 .hero-text h1 {
@@ -105,13 +105,13 @@ footer {
 
 .hero-image {
   flex: 1; /* other half of the space */
-  display: flex;
-  justify-content: right;
+  display: flex; /* puts text and image side-by-side */
+  flex-direction: row;
+  justify-content: center;
 }
 
 .hero-image img {
-  align-items: center; /* aligns them vertically */
-  max-width: 33%;
+  max-width: 100%;
   border-radius: 10px;
 }
 
