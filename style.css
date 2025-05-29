@@ -33,12 +33,12 @@ header p {
 }
 
 section {
-  padding: 2rem;
+  padding: 5rem;
   max-width: 1000px;
-  margin: 2rem auto;
-  background: white;
+  margin: 5rem auto;
+  background-color: white;
   border-radius: 12px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 h2 {
@@ -95,7 +95,7 @@ gap: 5rem;
 }
 
 .cta-button {
-  background: #0d6efd; /* blue background */
+  background:  var(--accent);
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
@@ -138,15 +138,17 @@ gap: 5rem;
   flex-direction: column;
   justify-content: space-between;
   background: #f5f5f5;
-  padding: 5rem;
   border-radius: 8px;
   font-size: 0.9rem;
   position: relative;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  background-color: white;
+  margin: 2rem;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .nav-button {
-  background: #0d6efd; /* blue background */
+  background: var(--accent);
   color: white;
   padding-top: 2rem 1.5rem;
   border-radius: 8px;
